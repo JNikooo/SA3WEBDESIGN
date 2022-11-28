@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+<meta charset="utf-8">
+<title>Esporlas Jan</title>
+ 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<!-- Bootstrap css-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/22312c5dd2.js" crossorigin="anonymous"></script>
+ 
+<style>
+body {
+font-family: "Montserrat";
+text-align: center;
+}
+ 
+.container-fluid {
+padding: 3% 5% 10%;
+
+}
+ 
+/* Title Section */
+ 
+#title {
+background-color: #2b2b2b;
+color: #fff;
+}
+.title-heading {
+font-family: "Montserrat";
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 600;
+text-align: center;
+}
+
+ 
+/* Navigation Bar */
+.navbar {
+padding: 0 0 4rem;
+}
+.navbar-brand {
+font-family: "Montserrat";
+font-size: 2.5rem;
+font-weight: 900;
+}
+.nav-item {
+padding: 0 18px;
+}
+.nav-link {
+font-size: 1.2rem;
+font-family: "Montserrat-light";
+}
+ 
+ 
+/* Title Button */
+.title-button {
+margin: 0% 1% 2% 0%;
+}
+ 
+/* Feature Products */
+ 
+#products {
+background-color: #ffffff;
+padding-top: 3%;
+display: inline-flex;
+justify-content: center;
+margin-bottom: 10%;;
+}
+.products-card {
+padding: 1% 1% 1% 8%;
+}
+.products-detail {
+padding: 1% 1% 1% 0%;
+}
+.card-img-top {
+height: 200px;
+}
+.products-title, .contact-title {
+color: #60ff75;
+letter-spacing: 1px;
+}
+ 
+/* Testimonials */
+ 
+#testimonials {
+background-color: #000000;
+color: #fff;
+margin-top: 10%;
+padding-top: 2rem;
+}
+.carousel-item {
+padding: 5% 15%;
+}
+
+/* Press */
+ 
+#press {
+background-color: #50ff67;
+text-align: center;
+padding-bottom: 3%;
+}
+.press-logo {
+width: 15%;
+margin: 10px 20px 10px;
+padding: 15px;
+}
+ 
+.btnCard {
+background: #1ee973;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Arial;
+font-weight: 700;
+color: #000000;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+ 
+.btnCard:hover {
+background: #3cf388;
+text-decoration: none;
+}
+ 
+
+/* Footer */
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Poppins', sans-serif;
+min-height: 100vh;
+display: block;
+align-items: center;
+justify-content: center;
+}
+.site-footer {
+background-color: #26272b;
+padding: 45px 0 20px;
+font-size: 15px;
+line-height: 24px;
+color: #737373;
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.site-footer hr {
+border-top-color: #bbb;
+opacity: 0.5;
+}
+.site-footer hr.small {
+margin: 20px 0;
+}
+.site-footer h6 {
+color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+margin-top: 5px;
+letter-spacing: 2px;
+}
+.site-footer a {
+color: #737373;
+}
+.site-footer a:hover {
+color: #fff;
+text-decoration: none;
+}
+.footer-links {
+padding-left: 0;
+list-style: none;
+}
+.footer-links li {
+display: block;
+}
+.footer-links a {
+color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+color: #fff;
+text-decoration: none;
+}
+</style>
+ 
+</head>
+ 
+<body>
+<!-- Title -->
+ 
+<section id="title">
+<div class="container-fluid">
+ 
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+<a class="navbar-brand" href="#">Nikolai</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#title">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#products">Products</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="">My Account</a>
+</li>
+</ul>
+</div>
+</nav>
+ 
+<!-- title -->
+<div class="row">
+<div class="col-lg-12">
+<h1 class="title-heading">Lorem Ipsum.</h1>
+
+<!-- Sign In and Sign Up Buttons -->
+<button type="button" class="btn btn-outline-light btn-lg title-button">Sign In</button>
+
+<button type="button" class="btn btn-dark btn-lg title-button">Sign Up</button>
+ 
+</div>
+</div>
+ 
+</div>
+</section>
+ 
+<!-- Subscription -->
+
+<section id="products" style="center;">
+<div class="products-card row" style="center;">
+<div class="col-lg-4">
+<div class="card" style="width: 18rem;">
+<div class="card-body">
+<h5 class="card-title">Basic</h5>
+<br><br>
+<p class="card-text" style="font-size: 72px;">$25</p>
+</div>
+<div class="card-body">
+<button class="btnCard">Add to Cart</button>
+</div>
+</div>
+
+<div class="products-detail row">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="products-detail row">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="products-detail row">
+     <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="col-lg-4">
+<div class="card" style="width: 18rem;">
+<div class="card-body">
+<h5 class="card-title">Standard</h5>
+<br><br>
+<p class="card-text" style="font-size: 72px;">$50</p>
+</div>
+<div class="card-body">
+<button class="btnCard">Add to Cart</button>
+</div>
+</div>
+
+<div class="products-detail row">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="products-detail row">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="products-detail row">
+     <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="col-lg-4">
+<div class="card" style="width: 18rem;">
+<div class="card-body">
+<h5 class="card-title">Professional</h5>
+<br><br>
+<p class="card-text" style="font-size: 72px;">$75</p>
+</div>
+<div class="card-body">
+<button class="btnCard">Add to Cart</button>
+</div>
+</div>
+
+<div class="products-detail row">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="products-detail row">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="products-detail row">
+     <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="check" style="width:42px;height:42px;">
+    <h5 class="card-title">Lorem Ipsum</h5>
+    </div>
+    </div>
+    </div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- features -->
+ 
+<section id="features" style="center">
+    <div class="row">
+    <div class="feature-box col-lg-4">
+    <img src="https://cdn-icons-png.flaticon.com/512/33/33308.png" alt="People" style="width:120px;height:120px;">
+    <h3>Lorem Ipsum.</h3>
+    <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique purus eu malesuada consectetur. Pellentesque quis tortor et risus euismod scelerisque.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+    <img src="https://cdn-icons-png.flaticon.com/512/546/546310.png" alt="World" style="width:120px;height:120px;">
+    <h3>Lorem Ipsum.</h3>
+    <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique purus eu malesuada consectetur. Pellentesque quis tortor et risus euismod scelerisque.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+    <img src="https://cdn-icons-png.flaticon.com/512/953/953810.png" alt="Messages" style="width:120px;height:120px;">
+    <h3>Lorem Ipsum.</h3>
+    <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique purus eu malesuada consectetur. Pellentesque quis tortor et risus euismod scelerisque.</p>
+    </div>
+    </div>
+
+</section>
+     
+<!-- Testimonials -->
+ 
+<section id="testimonials" style="justify-content: center;">
+
+<div class="row">
+    <div class="col-lg-12">
+    <h1 class="title-heading">We love to hear from you.</h1>
+
+</div>
+</div>
+<button type="button" class="btn btn-outline-light btn-lg title-button">Contact</button> 
+
+
+</section>
+
+<!-- Footer -->
+
+<footer class="site-footer">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12 col-md-6">
+    <h6>About</h6>
+    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+    <div class="col-6 col-md-3">
+    <h6>Lorem Ipsum</h6>
+    <ul class="footer-links ">
+    <li><a href="#">Lorem Ipsum</a></li>
+    <li><a href="#">Lorem Ipsum</a></li>
+    <li><a href="#">Lorem Ipsum</a></li>
+    <li><a href="#">Lorem Ipsum</a></li>
+    <li><a href="#">Lorem Ipsum</a></li>
+    <li><a href="#">Lorem Ipsum</a></li>
+    </ul>
+    </div>
+    <div class="col-6 col-md-3">
+    <h6>Quick Links</h6>
+    <ul class="footer-links">
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Contribute</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Sitemap</a></li>
+    </ul>
+    </div>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+
+ 
+</html>
